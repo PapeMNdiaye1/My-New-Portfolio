@@ -1,0 +1,35 @@
+@mixin cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  &::selection {
+    color: var(--color0);
+    background: var(--colorX);
+  }
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: var(--color0);
+  --color0: #f1f1f1;
+  --colorX: #222;
+  --color_bak: #fff;
+  --color_tab_hover: #222;
+  display: flex;
+  overflow-y: scroll;
+  // font-family: "Baloo Thambi 2", cursive;
+  // font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@import "./LeftBare";
+// ################################################
+@import "./Home";
