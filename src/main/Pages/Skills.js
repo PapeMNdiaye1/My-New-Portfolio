@@ -19,14 +19,16 @@ const Tab = ({ theClass, icon, name, parentCallback }) => {
         });
     }
     const onClickOnTab = (e) => {
-        let tab = e.target
-        Tabs.forEach(tab => {
-            tab.classList.remove('skills_selected')
-        });
-        // tab.classList.add('skills_selected')
-        // console.log(tab.childNodes[1].innerText);
 
-        parentCallback(tab.childNodes[1].innerText)
+        let tab = e.target
+
+        if (typeof tab === 'object') {
+            Tabs.forEach(tab => {
+                tab.classList.remove('skills_selected')
+            });
+            tab.classList.add('skills_selected')
+            parentCallback(tab.childNodes[1].innerText)
+        }
     }
 
     return (
@@ -49,24 +51,44 @@ const Skills = () => {
     }
     const changeTheTab = (theNewTab) => {
         switch (theNewTab) {
-            case "node.js": return (<div className='onSkillsInfos'>
-                <p>Lorem ipsum dolor sit amet consectetur
+            case "node.js": return (<div
+                style={{
+                    gridRowStart: '1'
+                }} className='onSkillsInfos'>
+                Node
+                <p> Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Vitae unde ab facilis dolore veritatis
                     laborum magnam ex molestias. Ipsam veritatis quo voluptatem
                     nisi beatae. Sapiente rerum dolorem omnis expedita voluptates.</p>
             </div>);
-            case "php": return (<div className='onSkillsInfos'>php</div>);
-            case "javaScript": return (<div className='onSkillsInfos'>javaScript</div>);
-            case "react": return (<div className='onSkillsInfos'>react</div>);
-            case "git": return (<div className='onSkillsInfos'>git</div>);
-            case "html": return (<div className='onSkillsInfos'>html</div>);
-            case "css": return (<div className='onSkillsInfos'>css</div>);
-            case "adobe": return (<div className='onSkillsInfos'>adobe</div>);
+            case "php": return (<div style={{
+                gridRowStart: '2'
+            }} className='onSkillsInfos'>php</div>);
+            case "javaScript": return (<div style={{
+                gridRowStart: '3'
+            }} className='onSkillsInfos'>javaScript</div>);
+            case "react": return (<div style={{
+                gridRowStart: '4'
+            }} className='onSkillsInfos'>react</div>);
+            case "git": return (<div style={{
+                gridRowStart: '5'
+            }} className='onSkillsInfos'>git</div>);
+            case "html": return (<div style={{
+                gridRowStart: '6'
+            }} className='onSkillsInfos'>html</div>);
+            case "css": return (<div style={{
+                gridRowStart: '8'
+            }} className='onSkillsInfos'>css</div>);
+            case "adobe": return (<div style={{
+                gridRowStart: '9'
+            }} className='onSkillsInfos'>adobe</div>);
         }
     }
 
     useEffect(() => {
         Tabs = document.querySelectorAll('.skills');
+        console.log(Tabs[0].getBoundingClientRect())
+
     })
 
     return (
