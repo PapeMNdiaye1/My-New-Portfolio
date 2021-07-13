@@ -14,8 +14,8 @@ function Home() {
     const changeTab = (newTab) => {
         setTabToShow(newTab)
         changeTheTab(tabToShow)
-
     }
+
     const changeTheTab = (theNewTab) => {
         switch (theNewTab) {
             case "Home": return <Intro title='Pape Momar Ndiaye ' />;
