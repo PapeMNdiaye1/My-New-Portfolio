@@ -32,7 +32,8 @@ const Tab = ({ theClass, icon, name, parentCallback }) => {
     }
 
     return (
-        <div onMouseOver={onMouseOverTab}
+        <div
+            onMouseOver={onMouseOverTab}
             onMouseOut={onMouseOutTab}
             onClick={onClickOnTab}
             className={theClass}>

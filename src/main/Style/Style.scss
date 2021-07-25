@@ -32,3 +32,11 @@
 @import "./LeftBare";
 // ################################################
 @import "./Home";
+
+@media all and (max-width: 800px) {
+  #home-container {
+    width: 100vw;
+    min-height: 100vh;
+    border-radius: 0em;
+  }
+}

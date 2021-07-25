@@ -120,6 +120,12 @@
                     font-size: 2em;
                     z-index: 2;
                     cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                    &:active {
+                        transform: scale(1);
+                    }
                 }
                 .stuffs-title {
                     padding-left: 1em;
@@ -131,39 +137,46 @@
                     grid-row-start: 2;
                     display: grid;
                     grid-template-columns: 1fr;
-                    grid-template-rows: 3fr 2fr 1fr;
+                    grid-template-rows: 1.5fr 2fr 1fr;
                     .web-presentation-text {
                         grid-row: 2;
                         p {
                             width: 90%;
-                            // background-color: antiquewhite;
                             font-size: 0.8em;
                         }
                     }
                     .link-container {
                         width: 90%;
-                        // height: ;
                         grid-row: 3;
                         .link {
                             width: 5em;
-                            height: 1.5em;
-                            // background: sandybrown;
+                            // width: auto;
+                            height: 1.2em;
                             border: 0.1em solid #000;
-                            border-radius: 0.1em;
+                            border-radius: 0.2em;
                             @include cent();
+                            a {
+                                text-decoration: none;
+                                color: var(--colorX);
+                                font-size: 0.8em;
+                            }
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                            &:active {
+                                transform: scale(1);
+                            }
                         }
                     }
                 }
 
                 .Carousel-container {
                     grid-row-start: 2;
-                    // background-color: salmon;
                     width: 95%;
                     height: 97%;
                     margin: auto;
                     min-height: 20em;
                     min-width: 20em;
-                    // background: salmon;
                     .carousel:nth-child(1) {
                         border-radius: 0.2em;
                         box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.2);
@@ -175,12 +188,6 @@
                     .carousel-status {
                         display: none;
                     }
-                    //  {
-                    //     display: none;
-                    // }
-                    // div {
-                    //     border-radius: 0.5em;
-                    // }
                 }
             }
         }
@@ -289,5 +296,11 @@
         // }
 
         // #################################
+    }
+}
+
+@media all and (max-width: 800px) {
+    #Work {
+        background-color: salmon;
     }
 }
