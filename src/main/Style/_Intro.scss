@@ -61,7 +61,7 @@
         // background-color: seagreen;
         width: 25em;
         height: 37em;
-        background-image: url("./Image/profil\ pictur\ 2.jpg");
+        background-image: url("https://previews.dropbox.com/p/thumb/ABPwdBu20ESeU-FvJMJJvfmAuY8HRIdnZ8XdF9Zt8EJH41KZSan118wdhv9iiIL8NqhdkOQ44NCxZbb_JLo2_MYbREgTcDwVGBehk6rRj56jtVm5yqW2Cc17uFHWrCTwDREVrrXo0T2Lu700oOiEHP-IM9-Rbzkpt87qOC3On_AQiarcVCvHJkThjPsCVfXmWQfNJYh0h7LKddLGnoBAfXJ_07JgM5jrOOnNk3TFkIJzt_OU6GIsJHu5dvXq3kz2UJvhgz8eb4yPNhmXXA-MIom4CTDMgHOCB_taTS25jCtdWlTRJDenvBuwbnh2av60lDbGn3HNodZGu8lRKjgDb95w4eb4l-pDSylD5sbqSeRdLg/p.jpeg?size=2048x1536&size_mode=3");
         background-position: center;
         background-size: 100%;
         // filter: grayscale(100%);
@@ -84,13 +84,13 @@
         background-repeat: no-repeat;
         background-position: center;
         z-index: 1;
+        // transform: scale(2);
         @include cent();
-        // fill: #fff;
       }
       #intro {
         width: 100%;
         height: 7em;
-        font-size: 0.8em;
+        font-size: 0.9em;
         @include cent();
         // justify-content: center;
         padding: 2%;
@@ -175,18 +175,14 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 15% 85%;
-        background-image: url("./Image/profil\ pictur\ 2.jpg");
+        background-image: url("https://previews.dropbox.com/p/thumb/ABPwdBu20ESeU-FvJMJJvfmAuY8HRIdnZ8XdF9Zt8EJH41KZSan118wdhv9iiIL8NqhdkOQ44NCxZbb_JLo2_MYbREgTcDwVGBehk6rRj56jtVm5yqW2Cc17uFHWrCTwDREVrrXo0T2Lu700oOiEHP-IM9-Rbzkpt87qOC3On_AQiarcVCvHJkThjPsCVfXmWQfNJYh0h7LKddLGnoBAfXJ_07JgM5jrOOnNk3TFkIJzt_OU6GIsJHu5dvXq3kz2UJvhgz8eb4yPNhmXXA-MIom4CTDMgHOCB_taTS25jCtdWlTRJDenvBuwbnh2av60lDbGn3HNodZGu8lRKjgDb95w4eb4l-pDSylD5sbqSeRdLg/p.jpeg?size=2048x1536&size_mode=3");
         background-position: center;
         background-size: 140%;
         background-repeat: no-repeat;
 
         .name-container {
           top: 2%;
-          // position: absolute;
           width: auto;
-          // grid-row: 1;
-          // background-color: salmon;
-          // display: none;
           grid-row: 1;
           margin: auto;
           #my_name {
@@ -211,17 +207,28 @@
         }
       }
       .container2 {
+        max-width: 100vw;
+        width: 100vw;
+        grid-row: 1;
         position: absolute;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20% 80%;
-        // display: none;
+        grid-template-rows: 30% 70%;
+
+        // @include cent();
         #home_logo {
           display: none;
         }
         #intro {
           grid-row-start: 2;
           font-size: 1em;
+          margin: auto;
+          max-width: 20em;
+          // display: none;
+          // background: salmon;
+          // background-color: salmon;
+          background-color: rgba(0, 0, 0, 0.7);
+
           .intro_title {
             color: #fff;
           }

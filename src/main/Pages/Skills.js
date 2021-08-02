@@ -54,35 +54,39 @@ const Skills = () => {
         switch (theNewTab) {
             case "node.js": return (<div
                 style={{
-                    gridRowStart: '1'
+                    gridRowStart: '3'
                 }} className='onSkillsInfos'>
-                Node
-                <p> Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Vitae unde ab facilis dolore veritatis
-                    laborum magnam ex molestias. Ipsam veritatis quo voluptatem
-                    nisi beatae. Sapiente rerum dolorem omnis expedita voluptates.</p>
+                <h2>
+                    Node
+                </h2 >
+                <p>Le Js étant mon langage de prédilection il était normal que je fasse du node en back-end. Mes projets les plus poussent avec Node sont les plateformes Hackeur-House et Geek-Blog.</p>
             </div>);
             case "php": return (<div style={{
                 gridRowStart: '2'
-            }} className='onSkillsInfos'>php</div>);
+            }} className='onSkillsInfos'><h2>php</h2> <p>Le PHP est un langage que je peux utiliser cependant je maitrise parfaitement sa syntaxe, il est tres populaire dans le milieu du fait de sa stabilité.</p></div>);
             case "javaScript": return (<div style={{
-                gridRowStart: '3'
-            }} className='onSkillsInfos'>javaScript</div>);
+                gridRowStart: '1'
+            }} className='onSkillsInfos'><h2>javaScript</h2> <p>Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web.
+                C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.</p></div>);
             case "react": return (<div style={{
                 gridRowStart: '4'
-            }} className='onSkillsInfos'>react</div>);
+            }} className='onSkillsInfos'><h2>react</h2> <p>Apres avoir eu suffisamment d'experience avec L'environnement Js, j'ai decide de parfaire mon frontend en apprenant un framework.
+                React fue le choix le plus judicieux du fait de sa stabilite et de la communauté au toure.j'ai réalisé de nombreux projets en react 'ce porfolio'.</p></div>);
             case "git": return (<div style={{
                 gridRowStart: '5'
-            }} className='onSkillsInfos'>git</div>);
+            }} className='onSkillsInfos'><h2>git</h2> <p>C'est un protocole permettant de suivre les modifications dans n'importe quel ensemble de fichiers,
+                généralement utilisé pour coordonner le travail entre les programmeurs développant en collaboration le code source d'un
+                logiciel ou d'une platforme, C'est un indispensable pour n'importe quelle projet individuel ou en equipe.
+                </p></div>);
             case "html": return (<div style={{
                 gridRowStart: '6'
-            }} className='onSkillsInfos'>html</div>);
+            }} className='onSkillsInfos'><h2>html</h2> <p>Ce fue ma porte d'entre dans le monde du development. C'est l'ossature de toute plateforme web.</p></div>);
             case "css": return (<div style={{
                 gridRowStart: '8'
-            }} className='onSkillsInfos'>css</div>);
+            }} className='onSkillsInfos'><h2>css</h2> <p>Mon experience en tant que designer me permet de pousser le langage a sont plain potantiel. Je l'utilise surtout le préprocesseur Sass.</p></div>);
             case "adobe": return (<div style={{
                 gridRowStart: '9'
-            }} className='onSkillsInfos'>adobe</div>);
+            }} className='onSkillsInfos'><h2>adobe</h2> <p>les logiciels de la suite adobe sont mes principaux outils de designe.</p></div>);
         }
     }
 
@@ -95,9 +99,9 @@ const Skills = () => {
     return (
         <div id='Skills' className='.all'>
             <div id="skills_navbar">
-                <Tab parentCallback={callback} theClass='skills nodejs' icon={<i class="fab fa-node-js"></i>} name='node.js' />
-                <Tab parentCallback={callback} theClass='skills php' icon={<i class="fab fa-php"></i>} name='php' />
                 <Tab parentCallback={callback} theClass='skills skills_selected javaScript' icon={<i class="fab fa-js"></i>} name='javaScript' />
+                <Tab parentCallback={callback} theClass='skills php' icon={<i class="fab fa-php"></i>} name='php' />
+                <Tab parentCallback={callback} theClass='skills nodejs' icon={<i class="fab fa-node-js"></i>} name='node.js' />
                 <Tab parentCallback={callback} theClass='skills react' icon={<i class="fab fa-react"></i>} name='react' />
                 <Tab parentCallback={callback} theClass='skills git' icon={<i class="fab fa-git-alt"></i>} name='git' />
                 <Tab parentCallback={callback} theClass='skills html' icon={<i class="fab fa-html5"></i>} name='html' />

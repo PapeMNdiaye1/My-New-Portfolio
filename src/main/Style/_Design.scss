@@ -1,3 +1,8 @@
+@mixin cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #Design {
     display: flex;
     justify-content: center;
@@ -12,6 +17,7 @@
         font-size: 0.9em;
         font-weight: 900;
         text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+        z-index: 3;
     }
     .design-container {
         width: 73em;
@@ -33,6 +39,7 @@
             background-repeat: no-repeat;
             transition-duration: 0.3s;
             color: transparent;
+            // filter: grayscale(60%);
             p {
                 display: none;
             }
@@ -166,13 +173,23 @@
 
             .show-vertical-image-text {
                 width: 20em;
-                @include cent();
                 grid-column: 2;
                 grid-row: 1;
+                flex-wrap: wrap;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 70% 7% 23%;
+                color: var(--color0);
+                span {
+                    width: 100%;
+                    grid-row: 2;
+                    font-size: 2em;
+                    margin: auto;
+                }
                 p {
                     width: 90%;
                     font-size: 0.8em;
-                    color: var(--color0);
+                    grid-row: 3;
                 }
             }
 
@@ -267,6 +284,7 @@
                 width: 12em;
                 height: 18em;
                 margin: auto;
+                box-shadow: 0px 0.1px 24px rgba(0, 0, 0, 0.2);
             }
             .one-design-container:nth-child(1) {
                 left: -10%;
@@ -342,64 +360,58 @@
             display: none;
         }
         .design-presentation-container {
-            // position: fixed;
-            // width: 100%;
-            // height: 100%;
-            // background-color: rgba(0, 0, 0, 0.5);
-            // @include cent();
-            // top: 0%;
-            // left: 0%;
-            // z-index: 5;
             .design-container {
                 width: 100vw;
-                height: 100vh;
-                // background: var(--colorX);
-                // background: rgba(36, 36, 36, 0.96);
+                height: 103vh;
                 border-radius: 0em;
-                // box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: 80% 20%;
-                // margin: auto;
+                grid-template-rows: 2em 70% 30%;
+                background: var(--colorX);
+                background: rgba(0, 0, 0, 0.7);
                 .show-vertical-image {
                     margin: 0em;
-                    // margin-right: 0em;
-                    width: 100%;
-                    height: 100%;
-                    // background-position: center;
-                    // background-size: 103%;
-                    // background-repeat: no-repeat;
-                    // grid-column: 1;
+                    width: 95%;
+                    height: 90%;
                     grid-column: span 2;
-                    grid-row: 1;
-                    // background-size: contain;
-                    // display: none;
-                    background-color: salmon;
+                    grid-row: 2;
+                    margin: auto;
+                    background-color: var(--color0);
+                    border: 0.3em var(--color0) solid;
+                    border-radius: 0.2em;
                 }
                 .show-horizontal-image {
-                    // margin: 2em;
-                    // margin-right: 0em;
-                    // width: 50em;
-                    // height: 28em;
-                    // background-position: center;
-                    // background-size: 103%;
-                    // background-repeat: no-repeat;
-                    // grid-column: 1;
-                    // grid-row: 1;
+                    margin: auto;
+                    grid-column: span 2;
+                    grid-row: 2;
+                    width: 95%;
+                    // height: auto;
+                    background-color: var(--color0);
+                    border: 0.3em var(--color0) solid;
+                    border-radius: 0.2em;
                 }
 
                 .show-vertical-image-text {
                     width: 100%;
-                    // @include cent();
-                    // grid-column: 2;
-                    background-color: salmon;
                     grid-column: span 2;
-                    grid-row: 2;
-                    // p {
-                    //     width: 90%;
-                    //     font-size: 0.8em;
-                    //     color: var(--color0);
-                    // }
+                    grid-row: 3;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 30% 70%;
+                    color: var(--color0);
+                    span {
+                        width: 100%;
+                        grid-row: 1;
+                        text-align: center;
+                        font-size: 1.5em;
+                    }
+                    p {
+                        grid-row: 2;
+                        width: 100%;
+                        margin: none;
+                        text-align: center;
+                        // background: salmon;
+                    }
                 }
 
                 .close-design {

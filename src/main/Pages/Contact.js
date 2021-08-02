@@ -14,10 +14,10 @@ function Contact() {
 
             <div class="contact_container_flex">
                 <div class="contact_container">
-                    <a href="mail">
+                    {/* <a href="mail">
                         <div onMouseOver={hoverOnContact} class="contact_cart">mail</div>
-                    </a>
-                    <a href="github">
+                    </a> */}
+                    <a href="https://github.com/PapeMNdiaye1" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">github</div>
                     </a>
                     <a href="https://www.linkedin.com/in/pape-momar-ndiaye-37b862199/" target="_blank">
@@ -29,16 +29,15 @@ function Contact() {
                     <a href="https://www.instagram.com/just.a.coder_/" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">instagame</div>
                     </a>
-                    <a href="" target="_blank">
+                    {/* <a href="" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">youtube</div>
-                    </a>
-
+                    </a> */}
                 </div>
-                {/* <div className="contact-shower">
-                    :777278655
-                </div> */}
             </div>
-
+            <div id="tel_gMail">
+                Mail: Pmomar44@gmail.com <br />
+                Tel: 77 727 86 55
+            </div>
 
         </div>
     )

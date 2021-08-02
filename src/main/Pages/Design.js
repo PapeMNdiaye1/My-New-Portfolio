@@ -4,8 +4,9 @@ import { React, useEffect, useState } from 'react';
 const DesignPresentation = ({ ImageBack, parentCallback, Title, ImageDescription, IsImageVertical }) => {
     const onClickOnTab = () => {
         parentCallback()
+        let LeftBareContainer = document.querySelector('#LeftBare-container')
+        LeftBareContainer.style.display = 'block';
     }
-    // console.log(IsImageVertical);
     return (
         <div className="design-presentation-container">
             <div className="design-container">
@@ -19,8 +20,9 @@ const DesignPresentation = ({ ImageBack, parentCallback, Title, ImageDescription
                     }>
                     </div>}
                 <div className="show-vertical-image-text">
+                    <span>{Title}</span>
                     <p>
-                        <span>{Title}</span> <br /> {ImageDescription}
+                        {ImageDescription}
                     </p>
                 </div>
                 <button onClick={onClickOnTab} className="close-design">
@@ -37,10 +39,9 @@ function Design({ title }) {
     let [ImageTitle, setImageTitle] = useState('');
     let [ImageDescription, setImageDescription] = useState('');
     let [IsImageVertical, setIsImageVertical] = useState(true);
+    let leftBar = document.querySelector('#tabs');
+    console.log(leftBar)
     const clickOnImage = (e) => {
-        // let leftBar = document.querySelector('#LeftBare-container');
-        // console.log(leftBar)
-        // leftBar.backgroundImage = "red"
         let thImg = e.target;
         let theImageUrl = getComputedStyle(thImg).backgroundImage;
         setTheImage(TheImage => theImageUrl);
@@ -56,11 +57,12 @@ function Design({ title }) {
         } else {
             setIsImageVertical(IsImageVertical => true);
         }
+        let LeftBareContainer = document.querySelector('#LeftBare-container')
+        LeftBareContainer.style.display = 'none';
+        console.log(LeftBareContainer);
     }
 
     const callback = () => {
-        // console.log('closeImage2');
-
         setPresentationDesign(PresentationDesign => false)
     }
 
@@ -71,22 +73,21 @@ function Design({ title }) {
             </div>
             {PresentationDesign && <DesignPresentation parentCallback={callback} ImageBack={TheImage} ImageDescription={ImageDescription} Title={ImageTitle} IsImageVertical={IsImageVertical} />}
             <div className='design-container'>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="1"><p>
-                    hhhhhhh </p> </div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt2"><p>hggh</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt3"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt4"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt5"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt6"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="tttt7"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt8"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="tttt9"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="tttt10"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt11"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt12"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt13"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="tttt14"><p>gggffgf</p></div>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="tttt14"><p>gggffgf</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="In The Street"><p>Drawing in picture [ ‎27 ‎06 ‎2021]</p> </div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Anna"><p>Digital oil painting [07 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="In Jap"><p>Digital oil painting [‎19 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Purge"><p>Compositing and montage [‎09 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Pape"><p>Digital oil painting [27 ‎05 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Purge-2"><p>Compositing and montage [09 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container horizontal" title="Sacrifice"><p>Graf , Typography in black and with sacrifice [16 12 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Tow Size"><p>Compositing and montage [‎14 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container horizontal" title="Joker"><p>Graf , Typography [06 ‎12 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container horizontal" title="Typography Nature"><p>Graf , Typography , Compositing and montage [20 ‎11 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Anna"><p>Digital oil painting [19 04 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Ina Makosi"><p>Digital oil painting [‎17 03 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Mor Head"><p>Compositing and montage [0‎2 08 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container horizontal" title="Converse"><p>Collage [05 11 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="In The Street"><p>Drawing in picture [18 07 ‎2021]</p></div>
             </div>
             <div className='network'>
                 <div className="network_container">

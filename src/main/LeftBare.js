@@ -68,9 +68,9 @@ const LeftBare = ({ onChangeTab }) => {
         <div
             id='LeftBare-container'>
             <div id='tabs'>
-                <Tab parentCallback={callback} tabTitle='Home' tabId='tab1' class2='activeTag0' icon={<ion-icon name="home-outline"></ion-icon>} />
-                <Tab parentCallback={callback} tabTitle='Work' tabId='tab2' icon={<ion-icon name="albums-outline"></ion-icon>} />
+                <Tab parentCallback={callback} tabTitle='Accueil' tabId='tab1' class2='activeTag0' icon={<ion-icon name="home-outline"></ion-icon>} />
                 <Tab parentCallback={callback} tabTitle='Design' tabId='tab3' icon={<ion-icon name="color-palette-outline"></ion-icon>} />
+                <Tab parentCallback={callback} tabTitle='Web' tabId='tab2' icon={<ion-icon name="albums-outline"></ion-icon>} />
                 <Tab parentCallback={callback} tabTitle='Skills' tabId='tab4' icon={<ion-icon name="list-outline"></ion-icon>} />
                 <Tab parentCallback={callback} tabTitle='Contact' tabId='tab5' icon={<ion-icon name="chatbox-outline"></ion-icon>} />
             </div>

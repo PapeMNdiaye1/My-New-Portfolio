@@ -42,9 +42,7 @@ function Intro({ title }) {
                     </div>
                     <div id="intro">
                         <h4 className="intro_title">
-                            Lorem ipsum amet consectetur adipisicing elit deleniti saepe. Vitae
-                            veritatis provident Lorem ipsum dolor sit amet g elit. Laborum modi
-                            ipsquam accusamus, perspiciatis commodi veniam
+                            Je suis un graphiste et un developeur freelance, allie les deux metier me permet d'avoir une vision global sur n'import quelle projet de creation digital.
                         </h4>
                     </div>
                 </div>
@@ -73,11 +71,11 @@ function Intro({ title }) {
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                {/* <a href="" target="_blank">
                     <div className="network">
                         <ion-icon name="logo-youtube"></ion-icon>
                     </div>
-                </a>
+                </a> */}
                 <a href="https://twitter.com/Ndiaye53287322" target="_blank">
                     <div className="network">
                         <ion-icon name="logo-tumblr"></ion-icon>
