@@ -21,13 +21,13 @@ function Contact() {
                         <div onMouseOver={hoverOnContact} class="contact_cart">github</div>
                     </a>
                     <a href="https://www.linkedin.com/in/pape-momar-ndiaye-37b862199/" target="_blank">
-                        <div onMouseOver={hoverOnContact} class="contact_cart">linkidin</div>
+                        <div onMouseOver={hoverOnContact} class="contact_cart">linkedin</div>
                     </a>
                     <a href="https://twitter.com/Ndiaye53287322" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">twitter</div>
                     </a>
                     <a href="https://www.instagram.com/just.a.coder_/" target="_blank">
-                        <div onMouseOver={hoverOnContact} class="contact_cart">instagame</div>
+                        <div onMouseOver={hoverOnContact} class="contact_cart">instagam</div>
                     </a>
                     {/* <a href="" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">youtube</div>
