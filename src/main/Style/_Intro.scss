@@ -26,8 +26,6 @@
       flex-wrap: wrap;
       .name-container {
         width: 100%;
-        // @include cent();
-        // flex-wrap: wrap;
         flex-direction: column;
         // display: flex;
         #my_name {
@@ -64,7 +62,6 @@
         background-image: url("./Image/profil\ pictur\ 2.jpg");
         background-position: center;
         background-size: 100%;
-        // filter: grayscale(100%);
       }
     }
     .container2 {
@@ -84,7 +81,6 @@
         background-repeat: no-repeat;
         background-position: center;
         z-index: 1;
-        // transform: scale(2);
         @include cent();
       }
       #intro {
@@ -92,21 +88,16 @@
         height: 7em;
         font-size: 0.9em;
         @include cent();
-        // justify-content: center;
         padding: 2%;
         border-radius: 0.5em;
         z-index: 100;
-
         .intro_title {
-          // background-color: antiquewhite;
           width: 70%;
           color: #000;
           text-align: center;
           margin-bottom: 0.4em;
           font-size: 0.8em;
           line-height: 2em;
-
-          // font-size: 1em;
         }
       }
     }

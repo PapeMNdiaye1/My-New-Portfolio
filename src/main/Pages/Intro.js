@@ -13,7 +13,6 @@ function Intro({ title }) {
                             <h1>PAPE M<strong>.</strong> NDIAYE</h1>
                         </div><br />
                         <div id="hello">
-
                             <h1>
                                 DESIGNER & FULL-STACK<br />
                                 DEVELOPER
@@ -42,7 +41,7 @@ function Intro({ title }) {
                     </div>
                     <div id="intro">
                         <h4 className="intro_title">
-                            Je suis un graphiste et un developeur freelance, allie les deux metier me permet d'avoir une vision global sur n'import quelle projet de creation digital.
+                            Je suis un graphiste et un developeur freelance, allier les deux metiers me permettent d'avoir une vision global sur n'importe quel projet de création digital.
                         </h4>
                     </div>
                 </div>
@@ -76,6 +75,7 @@ function Intro({ title }) {
                         <ion-icon name="logo-youtube"></ion-icon>
                     </div>
                 </a> */}
+
                 <a href="https://twitter.com/Ndiaye53287322" target="_blank">
                     <div className="network">
                         <ion-icon name="logo-tumblr"></ion-icon>

@@ -7,6 +7,7 @@ function Contact() {
 
     return (
         <div id='Contact' className='.all'>
+
             <div id="contact_title">
                 <h1>Contact</h1>
             </div>
@@ -14,9 +15,7 @@ function Contact() {
 
             <div class="contact_container_flex">
                 <div class="contact_container">
-                    {/* <a href="mail">
-                        <div onMouseOver={hoverOnContact} class="contact_cart">mail</div>
-                    </a> */}
+
                     <a href="https://github.com/PapeMNdiaye1" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">github</div>
                     </a>
