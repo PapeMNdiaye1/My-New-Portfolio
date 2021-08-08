@@ -960,7 +960,7 @@
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(5) {
-  background-image: url("./Image/Pape.jpg");
+  background-image: url("./Image/Thiam-min.jpg");
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(6) {
@@ -976,8 +976,8 @@
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(8) {
-  background-image: url("./Image/profil pictur 2.jpg");
-  background-size: 130%;
+  background-image: url("./Image/Pape.jpg");
+  background-size: 110%;
   grid-column: span 4;
   grid-row: span 6;
 }
@@ -1027,6 +1027,16 @@
   height: 92%;
   grid-column: span 4;
   grid-row: span 7;
+}
+
+#home-container #Design .design-container .one-design-container:nth-child(16) {
+  background-image: url("./Image/profil pictur 2.jpg");
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 13;
+      grid-row-start: 13;
+  grid-row-end: 17;
+  grid-column: span 3;
 }
 
 #home-container #Design .design-presentation-container {
@@ -1232,7 +1242,7 @@
   }
   #home-container #Design .design-container {
     width: 73%;
-    height: 180em;
+    height: 190em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1267,6 +1277,7 @@
   #home-container #Design .design-container .one-design-container:nth-child(5) {
     top: -30em;
     left: 6%;
+    height: 17em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(6) {
     top: -35em;
@@ -1316,6 +1327,10 @@
   #home-container #Design .design-container .one-design-container:nth-child(15) {
     top: -70em;
     height: 20.5em;
+  }
+  #home-container #Design .design-container .one-design-container:nth-child(16) {
+    top: -79em;
+    left: 18%;
   }
   #home-container #Design .network {
     display: none;
