@@ -89,6 +89,7 @@ function Design({ title }) {
                 <div onClick={clickOnImage} className="one-design-container horizontal" title="Converse"><p>Collage [05 11 ‎2020]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="In The Street"><p>Drawing in picture [18 07 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Tow Size"><p>Compositing and montage [‎14 ‎06 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Tow Size"><p>Compositing and montage [‎14 ‎06 ‎2021]</p></div>
             </div>
             <div className='network'>
                 <div className="network_container">
