@@ -913,6 +913,7 @@
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   margin-top: 9em;
+  margin-bottom: 9em;
 }
 
 #home-container #Design .design-container .one-design-container {
@@ -1041,7 +1042,6 @@
 
 #home-container #Design .design-container .one-design-container:nth-child(17) {
   background-image: url("./Image/No-Mor-Eyes-On-Me-5 (6)-min.jpg");
-  height: 95%;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 5;
