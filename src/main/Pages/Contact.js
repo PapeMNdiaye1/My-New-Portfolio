@@ -26,7 +26,7 @@ function Contact() {
                         <div onMouseOver={hoverOnContact} class="contact_cart">twitter</div>
                     </a>
                     <a href="https://www.instagram.com/just.a.coder_/" target="_blank">
-                        <div onMouseOver={hoverOnContact} class="contact_cart">instagam</div>
+                        <div onMouseOver={hoverOnContact} class="contact_cart">instagram</div>
                     </a>
                     {/* <a href="" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">youtube</div>
