@@ -39,18 +39,37 @@ function Intro({ title }) {
                         </svg>
 
                     </div>
+
+                    <div id='name_in_mobil_mode'>
+
+                        <div id="my_name">
+                            <h1>PAPE M<strong>.</strong> NDIAYE</h1>
+                        </div><br />
+                        <div id="hello">
+                            <h1>
+                                DESIGNER & FULL-STACK<br />
+                                DEVELOPER
+                            </h1>
+                        </div>
+                    </div>
+
                     <div id="intro">
                         <h4 className="intro_title">
                             Je suis un graphiste et un developeur freelance, allier les deux metiers me permettent d'avoir une vision global sur n'importe quel projet de création digital.
                         </h4>
                     </div>
+
+                    <div id="tel_gMailin_mobil_mode">
+                        Mail: Pmomar44@gmail.com <br />
+                        Tel: 77 727 86 55
+                    </div>
+
                 </div>
 
 
 
             </div>
 
-            {/* <div className="network."></div> */}
 
             <div className="network_container">
                 <a href="https://github.com/PapeMNdiaye1" target="_blank">
@@ -69,12 +88,6 @@ function Intro({ title }) {
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </div>
                 </a>
-
-                {/* <a href="" target="_blank">
-                    <div className="network">
-                        <ion-icon name="logo-youtube"></ion-icon>
-                    </div>
-                </a> */}
 
                 <a href="https://twitter.com/Ndiaye53287322" target="_blank">
                     <div className="network">
