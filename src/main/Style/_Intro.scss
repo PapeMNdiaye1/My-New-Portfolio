@@ -171,12 +171,12 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 15% 85%;
-        background-image: url("./Image/profil\ pictur\ 2.jpg");
+        background-image: url("./Image/profil\ pictur\ 1.jpg");
         background-position: center;
         background-size: 140%;
         background-repeat: no-repeat;
         // background-color: salmon;
-        opacity: 0.5;
+        opacity: 0.7;
         .name-container {
           top: 2%;
           width: auto;
@@ -263,12 +263,13 @@
         #intro {
           // grid-row-start: 2;
           font-size: 1em;
-          margin: auto;
+          // margin: auto;
           max-width: 20em;
           // display: none;
           // background: salmon;
           // background-color: salmon;
           background-color: rgba(0, 0, 0, 0.7);
+          top: 5em;
           padding: 0.5em;
           .intro_title {
             color: #fff;
