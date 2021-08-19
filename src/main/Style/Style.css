@@ -245,7 +245,7 @@
 #home-container #TheIntro #home .container1 .profile-picture {
   width: 25em;
   height: 37em;
-  background-image: url("./Image/profil pictur 2.jpg");
+  background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
   background-position: center;
   background-size: 100%;
 }
@@ -406,11 +406,10 @@
         grid-template-columns: 1fr;
     -ms-grid-rows: 15% 85%;
         grid-template-rows: 15% 85%;
-    background-image: url("./Image/profil pictur 1.jpg");
+    background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
     background-position: center;
     background-size: 140%;
     background-repeat: no-repeat;
-    opacity: 0.7;
   }
   #home-container #TheIntro #home .container1 .name-container {
     top: 2%;
@@ -498,7 +497,7 @@
   #home-container #TheIntro #home .container2 #intro {
     font-size: 1em;
     max-width: 20em;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.2);
     top: 5em;
     padding: 0.5em;
   }
@@ -525,7 +524,6 @@
     color: var(--color0);
     text-align: center;
     margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0.4em;
     padding: 0.5em;
   }

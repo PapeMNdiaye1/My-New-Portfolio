@@ -59,7 +59,7 @@
         // background-color: seagreen;
         width: 25em;
         height: 37em;
-        background-image: url("./Image/profil\ pictur\ 2.jpg");
+        background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
         background-position: center;
         background-size: 100%;
         // filter: blur(6px);
@@ -171,12 +171,12 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 15% 85%;
-        background-image: url("./Image/profil\ pictur\ 1.jpg");
+        background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
         background-position: center;
         background-size: 140%;
         background-repeat: no-repeat;
         // background-color: salmon;
-        opacity: 0.7;
+        // opacity: 0.7;
         .name-container {
           top: 2%;
           width: auto;
@@ -268,7 +268,7 @@
           // display: none;
           // background: salmon;
           // background-color: salmon;
-          background-color: rgba(0, 0, 0, 0.7);
+          background-color: rgba(0, 0, 0, 0.2);
           top: 5em;
           padding: 0.5em;
           .intro_title {
@@ -291,7 +291,7 @@
           text-align: center;
           margin-bottom: 2%;
           // background: rgba(0, 0, 0, 0.5);
-          background-color: rgba(0, 0, 0, 0.7);
+          // background-color: rgba(0, 0, 0, 0.7);
           border-radius: 0.4em;
           padding: 0.5em;
         }
