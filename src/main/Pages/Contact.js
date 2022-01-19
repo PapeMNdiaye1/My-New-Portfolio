@@ -25,7 +25,7 @@ function Contact() {
                     <a href="https://twitter.com/Ndiaye53287322" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">twitter</div>
                     </a>
-                    <a href="https://www.instagram.com/just.a.coder_/" target="_blank">
+                    <a href="https://www.instagram.com/pape_momar_ndiaye/" target="_blank">
                         <div onMouseOver={hoverOnContact} class="contact_cart">instagram</div>
                     </a>
 
