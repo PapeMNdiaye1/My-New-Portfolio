@@ -21,7 +21,7 @@
     }
     .design-container {
         width: 73em;
-        height: 103em;
+        height: 118em;
         display: grid;
         grid-template-columns: repeat(15, auto);
         grid-template-rows: repeat(17, auto);
@@ -32,7 +32,7 @@
         .one-design-container {
             background: var(--colorX);
             grid-column: span 3;
-            grid-row: span 4;
+            grid-row: span 3;
             border: 0.2em solid var(--colorX);
             border-radius: 0.2em;
             background-position: center;
@@ -52,89 +52,108 @@
             }
         }
         .one-design-container:nth-child(1) {
-            background-image: url("./Image/MOR.jpg");
+            background-image: url("./Image/Tableau_1.jpg");
+            background-size: 110%;
+            background-position-x: 78%;
+            // height: 89%;
         }
         .one-design-container:nth-child(2) {
             background-image: url("./Image/Anna4.jpg");
-            background-size: 130%;
-            grid-row: span 5;
+            background-size: 134%;
+            grid-row: span 4;
         }
         .one-design-container:nth-child(3) {
-            background-image: url("./Image/In-jap.jpg");
-            background-position-y: 65%;
-            background-size: 102%;
+            background-image: url("./Image/Boo_3.jpg");
+            background-size: 110%;
+            
         }
         .one-design-container:nth-child(4) {
-            background-image: url("./Image/Purge3.jpg");
+            background-image: url("./Image/Tableau_2.jpg");
         }
         .one-design-container:nth-child(5) {
             background-image: url("./Image/Thiame.jpg");
         }
         .one-design-container:nth-child(6) {
-            background-image: url("./Image/Purge.jpg");
+            background-image: url("./Image/Anna3.jpg");
+            // grid-row: span 4;
+            // height: %;
         }
         .one-design-container:nth-child(7) {
-            background-image: url("./Image/Sacrificc.jpg");
-            background-size: 130%;
+            background-image: url("./Image/Mor-3-2.jpg");
+            // background-size: 130%;
             background-position: center;
-            grid-column: span 5;
-            grid-row: span 3;
+            grid-column-start: 4;
+            grid-column-end: 7;
+            grid-row-start: 5;
+            grid-row: span 4;
+            height: 88%;
         }
         .one-design-container:nth-child(8) {
             background-image: url("./Image/Pape.jpg");
-            background-size: 110%;
-            grid-column: span 4;
-            grid-row: span 6;
+            // background-size: 110%;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 4;
+            grid-row-end: 7;
+            
         }
         .one-design-container:nth-child(9) {
-            background-image: url("./Image/New\ Joker\ 2.jpg");
-            background-size: 130%;
-            grid-column: span 3;
-            grid-row: span 2;
+  
+            background-image: url("./Image/In-jap.jpg");
+            // background-size: 130%;
+            grid-column-start: 10;
+            grid-column-end: 13;
+            grid-row-start: 4;
+            grid-row-end: 7;
         }
         .one-design-container:nth-child(10) {
-            background-image: url("./Image/Typography.jpg");
-            grid-column: span 4;
-            background-size: 115%;
-            grid-row: span 3;
-            // height: 90%;
+            background-image: url("./Image/No-Mor-Eyes-On-Me-5\ \(6\)-min.jpg");
+            grid-column-start: 13;
+            grid-column-end: 16;
+            grid-row-start: 4;
+            grid-row-end: 7;
         }
         .one-design-container:nth-child(11) {
-            background-image: url("./Image/Anna3.jpg");
-            background-size: 109%;
-            grid-column: span 4;
-            grid-row: span 6;
+            background-image: url("./Image/MOR.jpg");
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 7;
+            grid-row-end: 10;
+            // background-size: 109%;
+            // grid-column: span 4;
+            // grid-row: span 6;
             // height: 90%;
         }
         .one-design-container:nth-child(12) {
-            background-image: url("./Image/INA-MAKOSI-POSTER\ 5.jpg");
-            // height: 90%;
-        }
-        .one-design-container:nth-child(13) {
-            background-image: url("./Image/MOR-2-3.jpg");
-            background-size: 120%;
-            grid-column: span 4;
-            grid-row: span 6;
+            background-image: url("./Image/Paper_3.jpg");
+            grid-row: span 4;
             height: 88%;
         }
+        .one-design-container:nth-child(13) {
+            background-image: url("./Image/Purge3.jpg");
+            background-size: 100%;
+            grid-column: span 3;
+            grid-row: span 3;
+            // height: 88%;
+        }
         .one-design-container:nth-child(14) {
-            background-image: url("./Image/NewConverse3.jpg");
-            height: 77%;
-            grid-column: span 4;
+            background-image: url("./Image/Purge.jpg");
+            // height: 77%;
+            grid-column: span 3;
             grid-row: span 3;
         }
         .one-design-container:nth-child(15) {
-            background-image: url("./Image/Mor-3-2.jpg");
+            background-image: url("./Image/MOR-2-3.jpg");
             height: 92%;
-            grid-column: span 4;
-            grid-row: span 7;
+            grid-column-start: 1;
+            grid-row-start: 10;
+            grid-row-end: 13;
+            grid-column: span 3;
         }
         .one-design-container:nth-child(16) {
-            background-image: url("./Image/profil\ pictur\ 2.jpg");
-            grid-column-start: 1;
-            grid-row-start: 13;
-            grid-row-end: 17;
-            grid-column: span 3;
+            background-image: url("./Image/INA-MAKOSI-POSTER\ 5.jpg");
+            // grid-row-end: 17;
+            // grid-column: span 3;
         }
         .one-design-container:nth-child(17) {
             background-image: url("./Image/No-Mor-Eyes-On-Me-5\ \(6\)-min.jpg");
@@ -143,6 +162,26 @@
             grid-row-start: 17;
             grid-row-end: 21;
             grid-row: span 6;
+            background-position-y: 80%;
+        }
+        .one-design-container:nth-child(18) {
+            // background-image: url("./Image/No-Mor-Eyes-On-Me-5\ \(6\)-min.jpg");
+            // grid-column-start: 1;
+            // grid-column-end: 5;
+            // grid-row-start: 17;
+            // grid-row-end: 21;
+            // grid-row: span 6;
+            background-position-y: 80%;
+        }
+        .one-design-container:nth-child(19) {
+            // background-image: url("./Image/No-Mor-Eyes-On-Me-5\ \(6\)-min.jpg");
+            // grid-column-start: 1;
+            // grid-column-end: 5;
+            // grid-row-start: 17;
+            // grid-row-end: 21;
+            // grid-row: span 6;
+             grid-column: span 4;
+            grid-row: span 3;
             background-position-y: 80%;
         }
     }

@@ -15,9 +15,9 @@ import Hacker4 from '../Style/Image/Hacker House - 4.jpg';
 import Hacker5 from '../Style/Image/Hacker House - 5.jpg';
 
 import BabaSy1 from '../Style/Image/Baba Sy - 1.png';
-import BabaSy2 from '../Style/Image/Baba Sy - 2.png';
+import BabaSy2 from '../Style/Image/Baba Sy - 2.jpg';
 import BabaSy3 from '../Style/Image/Baba Sy - 3.png';
-import BabaSy4 from '../Style/Image/Baba Sy - 4.png';
+import BabaSy4 from '../Style/Image/Baba Sy - 4.jpg';
 
 // import Hacker2 from '../Style/Image/Hacker House - 2.jpg';
 // import Hacker3 from '../Style/Image/Hacker-House - 3.jpg';

@@ -73,23 +73,25 @@ function Design({ title }) {
             </div>
             {PresentationDesign && <DesignPresentation parentCallback={callback} ImageBack={TheImage} ImageDescription={ImageDescription} Title={ImageTitle} IsImageVertical={IsImageVertical} />}
             <div className='design-container'>
-                <div onClick={clickOnImage} className="one-design-container vertical" title="In The Street"><p>Drawing in picture [ ‎27 ‎06 ‎2021]</p> </div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Portrait digital"><p>Drawing in picture [ ‎18 ‎01 ‎2022]</p> </div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Anna"><p>Digital oil painting [07 ‎06 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="In Jap"><p>Digital oil painting [‎19 ‎06 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Purge"><p>Compositing and montage [‎09 ‎06 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Thiam"><p>Digital oil painting [07 ‎08 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Purge-2"><p>Compositing and montage [09 ‎06 ‎2021]</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="Sacrifice"><p>Graf , Typography in black and with sacrifice [16 12 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Sacrifice"><p>Graf , Typography in black and with sacrifice [16 12 ‎2020]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Pape"><p>Digital oil painting [27 ‎05 ‎2021]</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="Joker"><p>Graf , Typography [06 ‎12 ‎2020]</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="Typography Nature"><p>Graf , Typography , Compositing and montage [20 ‎11 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Joker"><p>Graf , Typography [06 ‎12 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Typography Nature"><p>Graf , Typography , Compositing and montage [20 ‎11 ‎2020]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Anna"><p>Digital oil painting [19 04 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Ina Makosi"><p>Digital oil painting [‎17 03 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Mor Head"><p>Compositing and montage [0‎2 08 ‎2021]</p></div>
-                <div onClick={clickOnImage} className="one-design-container horizontal" title="Converse"><p>Collage [05 11 ‎2020]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="Converse"><p>Collage [05 11 ‎2020]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="In The Street"><p>Drawing in picture [18 07 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="Tow Size"><p>Compositing and montage [‎14 ‎06 ‎2021]</p></div>
+                {/* <div onClick={clickOnImage} className="one-design-container vertical" title="No Mor Eyes On Me"><p>Compositing and montage [‎09 ‎08 ‎2021]</p></div>
                 <div onClick={clickOnImage} className="one-design-container vertical" title="No Mor Eyes On Me"><p>Compositing and montage [‎09 ‎08 ‎2021]</p></div>
+                <div onClick={clickOnImage} className="one-design-container vertical" title="No Mor Eyes On Me"><p>Compositing and montage [‎09 ‎08 ‎2021]</p></div> */}
             </div>
             <div className='network'>
                 <div className="network_container">
