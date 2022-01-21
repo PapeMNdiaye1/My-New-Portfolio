@@ -1042,15 +1042,14 @@
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(7) {
-  background-image: url("./Image/Mor-3-2.jpg");
+  background-image: url("./Image/INA-MAKOSI-POSTER 5.jpg");
   background-position: center;
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 7;
   -ms-grid-row: 5;
       grid-row-start: 5;
-  grid-row: span 4;
-  height: 88%;
+  grid-row: span 3;
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(8) {
@@ -1124,29 +1123,36 @@
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(16) {
-  background-image: url("./Image/INA-MAKOSI-POSTER 5.jpg");
+  background-image: url("./Image/Mor-3-2.jpg");
+  grid-row: span 4;
+  height: 88%;
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(17) {
-  background-image: url("./Image/No-Mor-Eyes-On-Me-5 (6)-min.jpg");
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 5;
-  -ms-grid-row: 17;
-      grid-row-start: 17;
-  grid-row-end: 21;
-  grid-row: span 6;
-  background-position-y: 80%;
+  background-image: url("./Image/Paper_1.png.jpg");
+  grid-row: span 2;
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(18) {
-  background-position-y: 80%;
+  background-image: url("./Image/Sonko.jpg");
+  height: 86%;
 }
 
 #home-container #Design .design-container .one-design-container:nth-child(19) {
-  grid-column: span 4;
-  grid-row: span 3;
-  background-position-y: 80%;
+  background-image: url("./Image/Gyu.jpg");
+  height: 86%;
+  -ms-grid-row: 12;
+      grid-row-start: 12;
+  grid-row-end: 15;
+  -ms-grid-column: 10;
+      grid-column-start: 10;
+  grid-column-end: 13;
+}
+
+#home-container #Design .design-container .one-design-container:nth-child(20) {
+  height: 86%;
+  width: 0em;
+  opacity: 0;
 }
 
 #home-container #Design .design-presentation-container {
@@ -1369,34 +1375,37 @@
             box-shadow: 0px 0.1px 24px rgba(0, 0, 0, 0.2);
   }
   #home-container #Design .design-container .one-design-container:nth-child(1) {
-    left: -10%;
+    left: -13%;
+    height: 16em;
+    z-index: 2;
   }
   #home-container #Design .design-container .one-design-container:nth-child(2) {
-    left: 15%;
-    top: -6em;
+    left: 18%;
+    top: -3em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(3) {
     width: 11em;
     top: -16em;
-    height: 16em;
+    height: 14.4em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(4) {
-    top: -20em;
-    left: 16%;
+    top: -19em;
+    left: 20%;
+    z-index: 2;
   }
   #home-container #Design .design-container .one-design-container:nth-child(5) {
-    top: -30em;
-    left: 6%;
+    top: -25em;
+    left: 2%;
     height: 17em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(6) {
+    left: -5%;
     top: -35em;
     height: 17em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(7) {
     top: -40em;
-    width: 16em;
-    height: 8em;
+    height: 16em;
     left: 16%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(8) {
@@ -1405,46 +1414,60 @@
   }
   #home-container #Design .design-container .one-design-container:nth-child(9) {
     top: -50em;
-    width: 16em;
-    height: 8em;
+    height: 17.5em;
     left: 10%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(10) {
-    top: -52em;
-    width: 13em;
-    height: 7em;
+    top: -55em;
+    height: 17em;
     left: -8%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(11) {
-    top: -54em;
+    top: -64em;
     left: 8%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(12) {
-    top: -57em;
+    top: -67em;
     height: 17em;
     left: -8%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(13) {
-    top: -62em;
-    height: 16em;
+    top: -72em;
+    height: 17em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(14) {
-    top: -67em;
-    width: 13em;
-    height: 7em;
+    top: -77em;
+    height: 17em;
     left: 18%;
   }
   #home-container #Design .design-container .one-design-container:nth-child(15) {
-    top: -70em;
-    height: 20.5em;
+    top: -80em;
+    height: 16em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(16) {
-    top: -79em;
+    top: -89em;
     left: 18%;
+    height: 20.5em;
   }
   #home-container #Design .design-container .one-design-container:nth-child(17) {
-    top: -84em;
+    top: -94em;
     left: -8%;
+    height: 12em;
+  }
+  #home-container #Design .design-container .one-design-container:nth-child(18) {
+    top: -104em;
+    left: 28%;
+    height: 15em;
+  }
+  #home-container #Design .design-container .one-design-container:nth-child(19) {
+    top: -110em;
+    left: -8%;
+    height: 15em;
+  }
+  #home-container #Design .design-container .one-design-container:nth-child(20) {
+    top: -110em;
+    width: 0em;
+    opacity: 0;
   }
   #home-container #Design .network {
     display: none;
@@ -1455,8 +1478,8 @@
     border-radius: 0em;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1    fr;
+        grid-template-columns: 1    fr;
     -ms-grid-rows: 2em 70% 30%;
         grid-template-rows: 2em 70% 30%;
     background: var(--colorX);

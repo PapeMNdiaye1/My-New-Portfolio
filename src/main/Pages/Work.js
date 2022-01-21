@@ -2,11 +2,11 @@ import { React, useState, useEffect } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import GeekBlog3 from '../Style/Image/Geek Blog - 3.png';
+import GeekBlog3 from '../Style/Image/Geek Blog - 3.jpg';
 import GeekBlog2 from '../Style/Image/Geek Blog - 2.png';
-import GeekBlog1 from '../Style/Image/Geek Blog - 1.png';
+import GeekBlog1 from '../Style/Image/Geek Blog - 1.jpg';
 import GeekBlog4 from '../Style/Image/Geek Blog - 4.png';
-import GeekBlog5 from '../Style/Image/Geek Blog - 5.png';
+import GeekBlog5 from '../Style/Image/Geek Blog - 5.jpg';
 
 import Hacker1 from '../Style/Image/Hacker House - 1.jpg';
 import Hacker2 from '../Style/Image/Hacker House - 2.jpg';

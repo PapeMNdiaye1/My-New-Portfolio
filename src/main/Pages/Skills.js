@@ -66,17 +66,18 @@ const Skills = () => {
             }} className='onSkillsInfos'><h2>php</h2> <p>Le PHP est un langage que je peux utiliser cependant je maitrise parfaitement sa syntaxe, il est tres populaire dans le milieu du fait de sa stabilité.</p></div>);
             case "javaScript": return (<div style={{
                 gridRowStart: '1'
-            }} className='onSkillsInfos'><h2>javaScript</h2> <p>Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web.
-                C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.</p></div>);
+            }} className='onSkillsInfos'><h2>javaScript</h2> <p>
+                C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.
+                Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page.</p></div>);
             case "react": return (<div style={{
                 gridRowStart: '4'
             }} className='onSkillsInfos'><h2>react</h2> <p>Apres avoir eu suffisamment d'experience avec L'environnement Js, j'ai décidé de parfaire mon frontend en apprenant un framework.
                 React fut le choix le plus judicieux du fait de sa stabilité et de la communauté autour. J'ai réalisé de nombreux projets en React parmis les quels ce portfolio.</p></div>);
             case "git": return (<div style={{
                 gridRowStart: '5'
-            }} className='onSkillsInfos'><h2>git</h2> <p>C'est un protocole permettant de suivre les modifications dans n'importe quel ensemble de fichiers,
+            }} className='onSkillsInfos'><h2>git</h2> <p>C'est un indispensable pour n'importe quelle projet individuel ou en equipe. C'est un protocole permettant de suivre les modifications dans n'importe quel ensemble de fichiers,
                 généralement utilisé pour coordonner le travail entre les programmeurs développant en collaboration le code source d'un
-                logiciel ou d'une platforme, C'est un indispensable pour n'importe quelle projet individuel ou en equipe.
+                logiciel ou d'une platforme.
                 </p></div>);
             case "html": return (<div style={{
                 gridRowStart: '6'
@@ -86,7 +87,7 @@ const Skills = () => {
             }} className='onSkillsInfos'><h2>css</h2> <p>Mon experience en tant que designer me permet de pousser le langage à son plein potentiel. J'utilise surtout le préprocesseur Sass.</p></div>);
             case "adobe": return (<div style={{
                 gridRowStart: '9'
-            }} className='onSkillsInfos'><h2>adobe</h2> <p>Les logiciels de la suite adobe sont mes principaux outils de design. </p></div>);
+            }} className='onSkillsInfos'><h2>adobe</h2> <p>Les logiciels de la suite adobe sont mes principaux outils de design. J'utilise presque quotidiennement Photoshop Illustrator et adobe Xd </p></div>);
         }
     }
 

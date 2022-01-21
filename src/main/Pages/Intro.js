@@ -55,7 +55,12 @@ function Intro({ title }) {
 
                     <div id="intro">
                         <h4 className="intro_title">
-                            Je suis un graphiste et un développeur freelance, allier les deux métiers me permet d'avoir une vision globale sur n'importe quel projet de création digitale.
+                        Je suis un Designer et
+ un développeur web freelance.
+ Allier les deux métiers me permet
+ d'avoir une vision globale
+ sur n'importe quel projet 
+de création digital.
                         </h4>
                     </div>
 
